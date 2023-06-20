@@ -1,0 +1,4 @@
+0 Neautral
+1 Rock
+2 paper
+3 Scissors
