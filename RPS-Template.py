@@ -15,6 +15,9 @@ while True:
     cv2.imshow('frame', frame)
     # Press q to close the window
     print(prediction)
+    prediction_max_index = prediction[0].argmax(axis=0)
+    labels = ["Neautral", "Rock","Paper","Scissors"]
+    print(labels[prediction_max_index])
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
             
