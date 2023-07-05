@@ -5,7 +5,7 @@ import random
 import time
 
 # Determine player choices
-def get_computer_choice(options):
+def get_computer_choice():
     """Picks a random choice for the computer player"""
     options = ["Rock","Paper","Scissors"]
     return random.choice(options)
